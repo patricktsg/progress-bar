@@ -24,5 +24,6 @@ You will need a db table column called comthing like 'completion' to use this fi
 You are welcome to fork and change the scoring of the field and colours as you see fit, in time I might added some more lower increments and additional colour shades.
 
 #### To-do
-- Create me steps for progress increments and associated colors / shades for each, currently it starts at 50 with increments of 10 to 100
+
+- ~~Create me steps for progress increments and associated colors / shades for each, currently it starts at 50 with increments of 10 to 100~~ ✅
 - Tooltip or hover action to show the actual number when mouseover the bar or field
