@@ -28,3 +28,6 @@ You are welcome to fork and change the scoring of the field and colours as you s
 - ~~Create me steps for progress increments and associated colors / shades for each, currently it starts at 50 with increments of 10 to 100~~ ✅
 - Tooltip or hover action to show the actual number when mouseover the bar or field
 - Change the shades to graduate better going from darker to light reds, dark orange to light orange, then light green to dark green
+- Change Namespace and add to Composer Packagelist
+- Submit to Nova Packages
+- Get a new cat
