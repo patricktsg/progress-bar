@@ -19,7 +19,7 @@ You will need a db table column called comthing like 'completion' to use this fi
 ### Note
 
 -  This field was build specifically with a case in mind and the initial scored completion value that is set by an Observer at 50 (100 max)
-- The colors are defined in the field based on the value prop from field.value
+- The bar width is an inline style based on the value prop from field.value which creates a % width based on that value
 
 You are welcome to fork and change the scoring of the field and colours as you see fit, in time I might added some more lower increments and additional colour shades.
 
