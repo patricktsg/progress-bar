@@ -12,4 +12,17 @@ class ProgressBar extends Field
      * @var string
      */
     public $component = 'progress-bar';
+
+    /**
+     * Write some text to be displayed on the bar.
+     *
+     * @param  string  $text
+     * @return $this
+     */
+    public function text(string $text)
+    {
+        return $this->withMeta([
+            'text' => $text
+        ]);
+    }
 }

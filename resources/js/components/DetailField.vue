@@ -4,6 +4,7 @@
                     <div class="rounded-lg p-1 progbar" 
                       style="height:16px;clear:both;" 
                       :style="{ background: setBarColor(field.value), width: field.value + '%'}">
+                        <div style="position:relative;bottom:.1rem" class="font-bold text-xs text-center text-white">{{ field.text }}</div>
                     </div>
                 </template>
             </panel-item>
