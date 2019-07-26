@@ -1,7 +1,7 @@
 <template>
             <panel-item :field="field">   
                 <template slot="value">
-                    <div class="rounded-lg p-1 progbar" 
+                    <div class="rounded-lg progbar" :class="{ 'p-1': field.value > 0 }"
                       style="height:16px;clear:both;" 
                       :style="{ background: setBarColor(field.value), width: field.value + '%'}">
                     </div>

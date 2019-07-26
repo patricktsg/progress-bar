@@ -1,7 +1,7 @@
 <template>
     <div class="flex">
             <div class="rounded-lg" style="height:16px;width:100%;background-color: #f1f5f8;">
-                <div class="rounded-lg p-1 progbar" 
+                <div class="rounded-lg progbar" :class="{ 'p-1': field.value > 0 }"
                  style="height:16px;clear:both;" 
                  :style="{ background: setBarColor(field.value), width: field.value + '%'}">
                 </div>
