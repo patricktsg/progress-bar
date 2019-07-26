@@ -1,9 +1,10 @@
 <template>
     <div class="flex">
             <div class="rounded-lg" style="height:16px;width:100%;background-color: #f1f5f8;">
-                <div class="rounded-lg p-1 progbar" 
+                <div class="rounded-lg p-1 progbar"
                  style="height:16px;clear:both;" 
                  :style="{ background: setBarColor(field.value), width: field.value + '%'}">
+                    <div style="position:relative;bottom:.1rem" class="font-bold text-xs text-center text-white">{{ field.text }}</div>
                 </div>
             </div>
     </div>
